@@ -8,6 +8,12 @@
       "Pccomponentes\\CommonBus\\": "src/"
     }
   },
+  "authors": [
+    {
+      "name": "PcComponentes",
+      "homepage": "https://www.pccomponentes.com"
+    }
+  ],
   "require": {
     "php": "^7.2",
     "pccomponentes/ddd": "^0.0.1"
