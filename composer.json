@@ -1,0 +1,18 @@
+{
+  "name": "pccomponentes/common-bus",
+  "description": "Common bus library",
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Pccomponentes\\CommonBus\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "pccomponentes/ddd": "^0.0.1"
+  },
+  "suggest": {
+    "ocramius/proxy-manager": "install it if you want to use lazy injection"
+  }
+}
