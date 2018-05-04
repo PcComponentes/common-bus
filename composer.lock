@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f4baddf3a4461eaf906d75b297de911",
+    "content-hash": "0aa6adced5285087623c1dcaaaaaa8a1",
     "packages": [
         {
             "name": "paragonie/random_compat",
@@ -56,16 +56,16 @@
         },
         {
             "name": "pccomponentes/ddd",
-            "version": "0.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PcComponentes/ddd.git",
-                "reference": "ed42319e51fa1a785c96079467b878c7f1eb6c42"
+                "reference": "88571bd592df2755e8452b78000da450393f0310"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PcComponentes/ddd/zipball/ed42319e51fa1a785c96079467b878c7f1eb6c42",
-                "reference": "ed42319e51fa1a785c96079467b878c7f1eb6c42",
+                "url": "https://api.github.com/repos/PcComponentes/ddd/zipball/88571bd592df2755e8452b78000da450393f0310",
+                "reference": "88571bd592df2755e8452b78000da450393f0310",
                 "shasum": ""
             },
             "require": {
@@ -83,7 +83,7 @@
                 "MIT"
             ],
             "description": "Helper ddd classes",
-            "time": "2018-05-02T10:36:18+00:00"
+            "time": "2018-05-03T13:08:06+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -169,7 +169,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "pccomponentes/ddd": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
