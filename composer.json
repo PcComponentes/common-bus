@@ -20,10 +20,5 @@
   },
   "suggest": {
     "ocramius/proxy-manager": "install it if you want to use lazy injection"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "0.0.x-dev"
-    }
   }
 }
