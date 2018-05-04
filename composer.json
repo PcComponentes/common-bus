@@ -16,7 +16,7 @@
   ],
   "require": {
     "php": "^7.2",
-    "pccomponentes/ddd": "^0.0.1"
+    "pccomponentes/ddd": "^0.0"
   },
   "suggest": {
     "ocramius/proxy-manager": "install it if you want to use lazy injection"
