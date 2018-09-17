@@ -9,7 +9,7 @@
 namespace Pccomponentes\CommonBus\Domain\Bus\Query;
 
 use Pccomponentes\CommonBus\Domain\Bus\Message;
-use Pccomponentes\Ddd\Domain\Model\Types\Uuid;
+use Pccomponentes\Ddd\Domain\Model\ValueObject\Uuid;
 
 abstract class Query extends Message
 {

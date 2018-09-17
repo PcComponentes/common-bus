@@ -8,7 +8,7 @@
 
 namespace Pccomponentes\CommonBus\Domain\Bus;
 
-use Pccomponentes\Ddd\Domain\Model\Types\Uuid;
+use Pccomponentes\Ddd\Domain\Model\ValueObject\Uuid;
 
 abstract class Message
 {
